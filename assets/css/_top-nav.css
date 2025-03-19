@@ -1,0 +1,27 @@
+.bg-top-nav {
+  background-color: #232f3e;
+  color: white;
+}
+
+.custom-top-nav {
+  font-size: 12px;
+}
+.custom-top-nav a {
+  padding: 5px;
+}
+
+.bg-top-nav p {
+  font-size: 12px;
+}
+
+.custom-top-nav .border-left {
+  border-color: #4a4a4a !important;
+}
+
+.custom-btn-font-size {
+  font-size: 14px;
+}
+
+.basket-icon {
+  background-color: transparent;
+}
