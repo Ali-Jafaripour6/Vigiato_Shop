@@ -102,3 +102,16 @@ div.dropdown-menu a ul li {
   color: #dc3545 !important;
   font-weight: bolder;
 }
+
+.custom-navbar-toggler {
+  color: white !important;
+  border: none;
+}
+
+.custom-navbar-toggler:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
