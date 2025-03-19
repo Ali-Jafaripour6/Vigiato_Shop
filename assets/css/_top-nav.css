@@ -25,3 +25,37 @@
 .basket-icon {
   background-color: transparent;
 }
+
+.custom-dropdown-toggle::after {
+  vertical-align: 0;
+}
+
+div.dropdown-menu a ul {
+  font-size: 13px;
+}
+
+.custom-dropdown-menu {
+  width: 360px !important;
+}
+
+.basketpic {
+  width: 120px;
+  height: 120px;
+}
+
+div.dropdown-menu a ul li {
+  margin-top: 5px;
+}
+
+.vig-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.top-list-hover {
+  transition: 0.4s ease-in-out;
+}
+
+.top-list-hover:hover {
+  color: #dc3545 !important;
+}
