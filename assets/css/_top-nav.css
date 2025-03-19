@@ -59,3 +59,46 @@ div.dropdown-menu a ul li {
 .top-list-hover:hover {
   color: #dc3545 !important;
 }
+
+.custom-navbar-nav {
+  font-size: 12px;
+}
+
+.custom-navbar-nav .nav-item {
+  position: unset;
+}
+.dropdown-menu ul li a {
+  color: black !important;
+  font-size: 16px;
+}
+
+.dropdown-img-console {
+  width: 250px;
+  position: absolute;
+  bottom: 0%;
+  left: 0px;
+}
+
+.dropdown-img-pc {
+  width: 175px;
+  position: absolute;
+  bottom: 0%;
+  left: 0px;
+}
+
+.dropdown-img-acc {
+  width: 120px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+.dmhover ul li a {
+  transition: 0.2s ease-out;
+}
+
+.dmhover ul li a:hover {
+  margin-right: 10px;
+  color: #dc3545 !important;
+  font-weight: bolder;
+}
