@@ -1,5 +1,5 @@
 .custom-col-md-3 {
-  flex: 0 0 17.9%;
+  flex: 0 0 17.7%;
   max-width: 25%;
 }
 
@@ -9,4 +9,24 @@
     max-width: 50%;
     margin-top: 10px;
   }
+}
+
+.p-font {
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .custom-3 {
+    flex: 0 0 24%;
+    max-width: 24%;
+    margin-left: 5px;
+  }
+}
+
+.pic-hover {
+  transition: 0.4s ease-out;
+}
+
+.pic-hover:hover {
+  color: #dc3545;
+  font-size: 14px;
 }

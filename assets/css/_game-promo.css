@@ -1,0 +1,7 @@
+.pic-zoom img {
+  transition: 0.5s ease;
+}
+
+.pic-zoom img:hover {
+  transform: scale(1.05);
+}
