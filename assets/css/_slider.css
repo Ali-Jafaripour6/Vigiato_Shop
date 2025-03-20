@@ -1,0 +1,15 @@
+.custom-col-md-3 {
+  flex: 0 0 17.9%;
+  max-width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-col-md-3 {
+    flex: 0 0 45%;
+    max-width: 50%;
+    margin-top: 10px;
+  }
+}
+
+body {
+}
