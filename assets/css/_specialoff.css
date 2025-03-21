@@ -1,0 +1,19 @@
+.custom-nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 15px;
+}
+
+.custom-nav-tabs .nav-link.active,
+.custom-nav-tabs .nav-item.show .nav-link {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.custom-nav-tabs .nav-link:hover,
+.custom-nav-tabs .nav-link:focus {
+  isolation: isolate;
+  border-color: transparent;
+}
