@@ -1,4 +1,4 @@
-var countDownDate = new Date("March 23, 2025 18:00:00").getTime();
+var countDownDate = new Date("April 30, 2025 18:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
@@ -26,6 +26,12 @@ var x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "تخفیف به پایان رسیده است";
+    document.getElementById("demo").innerHTML = "";
+    document
+      .getElementById("after-expire")
+      .setAttribute("id", "offer-expire-text");
+    document.getElementById("offerblur").style.filter = "blur(5px)";
+    document.getElementById("offer-expire-text").innerHTML =
+      "تخفیف به پایان رسیده است";
   }
 }, 1000);

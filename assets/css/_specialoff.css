@@ -17,3 +17,85 @@
   isolation: isolate;
   border-color: transparent;
 }
+
+.offer-details a {
+  font-size: 16px;
+  color: #18a100;
+  font-weight: bolder;
+}
+
+div.countdown-timer span {
+  background-color: #dc3545;
+  margin: 7px;
+  padding: 9px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#demo {
+  color: white;
+}
+
+#offer-expire-text {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 25px;
+  color: #dc3545;
+}
+
+#day {
+  position: relative;
+}
+
+#demo #day::after {
+  content: "روز";
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 45px;
+  left: 7px;
+}
+
+#seconds {
+  position: relative;
+}
+
+#demo #seconds::after {
+  content: "ثانیه";
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 45px;
+  left: 6px;
+}
+
+#minutes {
+  position: relative;
+}
+
+#demo #minutes::after {
+  content: "دقیقه";
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 45px;
+  left: 0px;
+}
+
+#hours {
+  position: relative;
+}
+
+#demo #hours::after {
+  content: "ساعت";
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 45px;
+  left: -2px;
+}
