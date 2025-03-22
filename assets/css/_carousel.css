@@ -14,16 +14,18 @@
 
 @media screen and (max-width: 768px) {
   .fontlow {
-    font-size: 12px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .fontlow {
+    font-size: 17px;
   }
 }
 
 .card-body-force {
   padding: 0 !important;
-}
-
-.fontlow {
-  font-size: 13px;
 }
 
 .owl-dots {
