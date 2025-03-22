@@ -79,6 +79,7 @@ $(".owl-carousel").owlCarousel({
   autoplay: true,
   nav: false,
   rewind: true,
+  slideBy: 2,
   autoHeight: false,
   autoplayTimeout: 3000,
   stagePadding: 35,

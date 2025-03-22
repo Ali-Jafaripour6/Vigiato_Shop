@@ -31,3 +31,11 @@
 .owl-dots {
   display: none;
 }
+
+.card-custom-hover {
+  transition: 0.4s ease-in;
+}
+
+.card-custom-hover:hover {
+  color: #dc3545;
+}

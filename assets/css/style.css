@@ -5,10 +5,10 @@
 @import url(_carousel.css);
 
 @font-face {
-  font-family: Vazir;
-  src: url(../fonts/Vazir-Medium.eot) format("eot"),
-    url(../fonts/Vazir-Medium.woff) format("woff"),
-    url(../fonts/Vazir-Medium.woff2) format("woff2");
+  font-family: iranSans;
+  src: url(../fonts/IRANSansWeb.eot) format("eot"),
+    url(../fonts/IRANSansWeb.woff) format("woff"),
+    url(../fonts/IRANSansWeb.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -18,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Vazir;
+  font-family: iranSans;
 }
 
 body {
