@@ -2,6 +2,7 @@
 @import url(_slider.css);
 @import url(_game-promo.css);
 @import url(_specialoff.css);
+@import url(_carousel.css);
 
 @font-face {
   font-family: Vazir;

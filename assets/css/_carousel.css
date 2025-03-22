@@ -1,0 +1,31 @@
+.btn-danger-c {
+  background-image: linear-gradient(to right, rgb(165, 0, 0), #dc3545);
+  transition: 0.4s ease-in-out;
+}
+
+.btn-danger-c:hover {
+  font-size: 17px;
+}
+
+.owl-card-custom {
+  border: none;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .fontlow {
+    font-size: 12px;
+  }
+}
+
+.card-body-force {
+  padding: 0 !important;
+}
+
+.fontlow {
+  font-size: 13px;
+}
+
+.owl-dots {
+  display: none;
+}

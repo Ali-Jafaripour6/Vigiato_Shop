@@ -71,3 +71,31 @@ var x = setInterval(function () {
     }
   }
 }, 1000);
+
+//fire owl carousel plugin
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  rtl: true,
+  autoplay: true,
+  nav: false,
+  rewind: true,
+  autoHeight: false,
+  autoplayTimeout: 3000,
+  stagePadding: 35,
+  margin: 5,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 2,
+      loop: true,
+    },
+    600: {
+      items: 3,
+      loop: true,
+    },
+    1000: {
+      items: 5,
+      loop: true,
+    },
+  },
+});
