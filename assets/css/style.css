@@ -5,6 +5,7 @@
 @import url(_carousel.css);
 @import url(_banners.css);
 @import url(_contact.css);
+@import url(_footer.css);
 
 @font-face {
   font-family: iranSans;

@@ -1,0 +1,29 @@
+.bg-danger-cc {
+  background-image: linear-gradient(to right, rgb(129, 0, 0), #dc3545);
+}
+
+.accordion-custom {
+  background-color: aqua;
+}
+
+.btn-link-c {
+  color: #dc3545;
+}
+
+.card-body-c {
+  background-color: rgba(0, 0, 0, 0.062);
+}
+
+@media screen and (max-width: 576px) {
+  .mtt-c {
+    margin-top: 25px;
+  }
+}
+
+.ali-hover {
+  transition: 0.4s ease-in-out;
+}
+
+.ali-hover:hover {
+  font-size: 18px;
+}

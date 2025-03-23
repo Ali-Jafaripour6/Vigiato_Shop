@@ -13,3 +13,9 @@
 .list-group-item {
   border-color: white;
 }
+
+@media screen and (max-width: 576px) {
+  .margin_btn {
+    margin-bottom: 32px;
+  }
+}
