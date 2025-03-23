@@ -1,3 +1,15 @@
 .list-item-c {
   background-color: transparent !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.bg-danger-c {
+  background-image: linear-gradient(to right, rgb(129, 0, 0), #dc3545);
+  border-radius: 20px;
+}
+
+.list-group-item {
+  border-color: white;
 }
