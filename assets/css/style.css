@@ -6,6 +6,7 @@
 @import url(_banners.css);
 @import url(_contact.css);
 @import url(_footer.css);
+@import url(_loginform.css);
 
 @font-face {
   font-family: iranSans;

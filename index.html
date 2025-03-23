@@ -451,11 +451,11 @@
                       <li class="nav-item">
                         <a class="nav-link text-white" href="#">درباره ما</a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item ml-3">
                         <a class="nav-link text-white" href="#">تماس با ما</a>
                       </li>
                     </ul>
-                    <a class="text-warning text-decoration-none" href=""
+                    <a class="text-warning text-decoration-none" data-toggle="modal" data-target="#exampleModal" href=""
                       ><img class="ml-2" width="30" height="30" src="https://img.icons8.com/ios-filled/45/FFFFFF/user-male-circle.png" alt="user-male-circle"/>ورود</a
                     >
                   </div>
@@ -464,6 +464,43 @@
             </div>
           </div>
         </nav>
+      </div>
+    </div>
+
+
+    <!--modal login nav-->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">ورود به سایت</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="login-form">
+              <div class="form-group">
+                <label for="exampleInputEmail1">آدرس ایمیل:</label>
+                <input type="email" ac placeholder="Peter@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">کلمه عبور:</label>
+                <input type="password" placeholder="********" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="form-check-input custom-control-input" id="exampleCheck1">
+                <label class="form-check-label custom-control-label" for="exampleCheck1">مرا بخاطر بسپار</label>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">ورود</button>
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-around align-items-center">
+            <a href="#" class="text-decoration-none">ثبت نام در سایت</a>
+            <a href="#" class="text-decoration-none">فراموشی رمز عبور</a>
+          </div>
+        </div>
       </div>
     </div>
 
