@@ -1,0 +1,45 @@
+.custom-breadcrumb {
+  margin: 0;
+  background-color: transparent;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.nav-link-cc {
+  padding: 0;
+}
+
+.product-price-h {
+  transition: 0.4s ease-in-out;
+}
+
+.product-price-h:hover {
+  background-color: #dc3545;
+}
+
+.product-price-h s {
+  color: #dc3545;
+  transition: 0.4s ease-in-out;
+}
+
+.product-price-h span {
+  transition: 0.4s ease-in-out;
+}
+
+.product-price-h:hover s {
+  color: black;
+}
+
+.product-price-h span {
+  color: black;
+}
+
+.product-price-h:hover span {
+  color: white;
+}
+
+.rounded-c {
+  border-radius: 25px;
+}
