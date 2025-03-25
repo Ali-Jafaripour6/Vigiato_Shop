@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+  .c-font {
+    font-size: 12px;
+  }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #dc3545;
+}

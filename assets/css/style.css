@@ -8,6 +8,7 @@
 @import url(_footer.css);
 @import url(_loginform.css);
 @import url(_product-breadcrumb.css);
+@import url(_product_list.css);
 
 @font-face {
   font-family: iranSans;
