@@ -100,3 +100,13 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+//zoomy options
+var urls = [
+  "assets/img/tlou1.png",
+  "assets/img/tlou2.png",
+  "assets/img/tlou3.png",
+  "assets/img/tlou4.png",
+];
+
+$("#el").zoomy(urls);

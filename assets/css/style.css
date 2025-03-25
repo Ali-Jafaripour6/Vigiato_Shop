@@ -46,3 +46,11 @@ ul {
 p {
   margin: 0;
 }
+
+.zoom-mousemove {
+  border: none !important;
+}
+a.zoom-click {
+  border: 1px solid #dc3545 !important;
+  border-radius: 5px !important;
+}
